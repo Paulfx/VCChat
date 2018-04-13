@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="VocalChat"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Documents/Prog/VocalChat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Documents/Prog/VocalChat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VocalChat">
+				<Option output="D:/Documents/Prog/VocalChat/cmake-build-debug/VocalChat.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/Prog/VocalChat/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="D:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="D:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="D:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="D:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 VocalChat"/>
+					<CompileFile command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VocalChat/fast">
+				<Option output="D:/Documents/Prog/VocalChat/cmake-build-debug/VocalChat.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/Prog/VocalChat/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="D:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="D:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="D:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="D:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 VocalChat/fast"/>
+					<CompileFile command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Documents/Prog/VocalChat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MingW/mingw64/bin/mingw32-make.exe -f &quot;D:/Documents/Prog/VocalChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Documents/Prog/VocalChat/Chat.cpp">
+			<Option target="VocalChat"/>
+		</Unit>
+		<Unit filename="D:/Documents/Prog/VocalChat/Chat.h">
+			<Option target="VocalChat"/>
+		</Unit>
+		<Unit filename="D:/Documents/Prog/VocalChat/UDP.cpp">
+			<Option target="VocalChat"/>
+		</Unit>
+		<Unit filename="D:/Documents/Prog/VocalChat/UDP.h">
+			<Option target="VocalChat"/>
+		</Unit>
+		<Unit filename="D:/Documents/Prog/VocalChat/UDPClient.cpp">
+			<Option target="VocalChat"/>
+		</Unit>
+		<Unit filename="D:/Documents/Prog/VocalChat/UDPClient.h">
+			<Option target="VocalChat"/>
+		</Unit>
+		<Unit filename="D:/Documents/Prog/VocalChat/UDPServer.cpp">
+			<Option target="VocalChat"/>
+		</Unit>
+		<Unit filename="D:/Documents/Prog/VocalChat/UDPServer.h">
+			<Option target="VocalChat"/>
+		</Unit>
+		<Unit filename="D:/Documents/Prog/VocalChat/main.cpp">
+			<Option target="VocalChat"/>
+		</Unit>
+		<Unit filename="D:/Documents/Prog/VocalChat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,3 @@
+D:/Documents/Prog/VocalChat/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Documents/Prog/VocalChat/cmake-build-debug/CMakeFiles/VocalChat.dir
+D:/Documents/Prog/VocalChat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
