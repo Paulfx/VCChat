@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\VocalChat.dir/objects.a
-D:\MingW\mingw64\bin\ar.exe cr CMakeFiles\VocalChat.dir/objects.a @CMakeFiles\VocalChat.dir\objects1.rsp
-D:\MingW\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\VocalChat.dir/objects.a -Wl,--no-whole-archive  -o VocalChat.exe -Wl,--out-implib,libVocalChat.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\VocalChat.dir\linklibs.rsp
